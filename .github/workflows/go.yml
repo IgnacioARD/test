@@ -17,7 +17,10 @@ jobs:
         go-version: 1.16
 
     - name: Build
-      run: go build -v ./...
+      run: go mod init "github.com/IgnacioARD/test"
+      
+    - name: Tidy
+      run: go tidy
 
     - name: Test
       run: go test -v ./...
