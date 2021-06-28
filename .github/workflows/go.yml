@@ -20,7 +20,7 @@ jobs:
       run: go mod init "github.com/IgnacioARD/test"
       
     - name: Tidy
-      run: go tidy
+      run: go mod tidy
 
     - name: Test
       run: go test -v ./...
