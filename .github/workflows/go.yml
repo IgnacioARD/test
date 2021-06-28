@@ -21,6 +21,9 @@ jobs:
       
     - name: Tidy
       run: go mod tidy
+      
+    - name: ls1
+      run: ls -la
 
     - name: Test
       run: go test -v ../
