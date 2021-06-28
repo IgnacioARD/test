@@ -21,6 +21,6 @@ This repository also has GitHub actions implemented, which means that every code
   * Running terratest to test the terraform code:
     1. Open CLI in the *test* direcotry 
     2. Configure dependencies by running **go mod init "<MODULE_NAME>"** command
-    3. To include the dependencies in the go.mod directory, run the **go tidy** command
+    3. To include the dependencies in the go.mod directory, run the **go mod tidy** command
     4. Run the test by running **go test -v** command
 
